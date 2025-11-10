@@ -2,6 +2,8 @@
 
 https://yasirnawaz3356004-source.github.io/Leads-tracker/
 
+<img src="Screenshot 2025-11-10 085015.png">
+
 # Leads-tracker
 A simple and lightweight Chrome extension that helps you save your open tabs for later use. Tabs are stored safely in localStorage, so you can easily restore them even after closing your browser.
 
