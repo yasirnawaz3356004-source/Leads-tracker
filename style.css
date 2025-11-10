@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-width: 400px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 0.6rem;
+  font-size: 17px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #4CAF50;
+}
+
+input:hover {
+  border-color: #20ff28;
+  background-color: aliceblue;
+}
+
+.Save {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 17px;
+  border-radius: 2px;
+  border: 1px solid #20ff28;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.Save:hover {
+  background-color: transparent;
+  color: #137c17;
+}
+
+.tab {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 17px;
+  border-radius: 2px;
+  border: 1px solid #20ff28;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background-color: transparent;
+  color: #137c17;
+}
+
+.reset {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 17px;
+  border-radius: 2px;
+  border: 1px solid #20ff28;
+  background-color: #ffffff;
+  color: #137c17;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.reset:hover {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100px;
+  gap: 0.5rem;
+}
+
+li {
+  list-style: none;
+  padding: 0.2rem;
+  border-radius: 3px;
+  width: 100%;
+}
+
+a {
+  color: #137c17;
+}
+
+a:hover {
+  color: #20ff28;
+}
+
+label {
+  color: #137c17;
+}
